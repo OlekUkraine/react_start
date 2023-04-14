@@ -1,0 +1,7 @@
+.all-posts {
+    width: calc(50% - 10px);
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

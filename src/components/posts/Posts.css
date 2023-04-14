@@ -1,0 +1,21 @@
+.all-list-posts {
+    width: calc(50% - 5px);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: #9f9898;
+}
+
+.body-post {
+    width: calc(50% - 5px);
+    padding: 40px;
+
+    font-size: 30px;
+
+    background-color: #ffffd9;
+    box-sizing: border-box;
+
+    border-radius: 5px;
+}

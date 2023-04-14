@@ -1,0 +1,10 @@
+.post-block {
+    width: 80%;
+    margin: 10px;
+    padding: 5px;
+
+    background-color: #fcf1f1;
+
+    border: 1px solid grey;
+    border-radius: 3px;
+}

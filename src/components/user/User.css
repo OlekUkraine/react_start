@@ -1,0 +1,18 @@
+.user-block {
+    width: 80%;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+
+    overflow: hidden;
+
+    background-color: #ffffd9;
+}
+
+.user-block>button {
+    margin-top: 10px;
+
+    align-self: flex-end;
+}

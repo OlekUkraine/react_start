@@ -1,0 +1,13 @@
+.user-post {
+    width: 90%;
+    padding: 8px;
+
+    line-height: 1.5em;
+    overflow: hidden;
+
+    background-color: #ffffd9;
+}
+
+.user-post>div:nth-child(1) {
+    font-weight: bold;
+}

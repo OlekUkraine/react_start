@@ -1,5 +1,6 @@
 .launch-block {
     width: calc(33% - 10px);
+    max-width: 400px;
     padding: 8px;
 
     font-size: 20px;
@@ -10,4 +11,13 @@
 
     border: 1px solid grey;
     border-radius: 3px;
+}
+
+.launch-block>img {
+    width: 100%;
+    max-width: 280px;
+    margin: 20px auto;
+
+    display: block;
+    object-fit: cover;
 }

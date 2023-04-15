@@ -23,6 +23,7 @@ const Posts = () => {
                     setOpenPosts={setOpenPosts}
                     key={post.id}/>)
             }
+
             </div>
 
             {

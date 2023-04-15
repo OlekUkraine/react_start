@@ -8,7 +8,7 @@ const Launch = ({launch}) => {
         <div className={'launch-block'}>
             <div>launch_year:{launch_year}</div>
             <div>mission_name:{mission_name}</div>
-            <div>MiPaSm:{links.mission_patch_small}</div>
+            <img src={links.mission_patch_small} alt={mission_name}></img>
         </div>
     );
 };

@@ -1,5 +1,6 @@
 .all-list-posts {
     width: calc(50% - 5px);
+    height: auto;
 
     display: flex;
     flex-direction: column;

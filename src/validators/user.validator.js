@@ -1,6 +1,6 @@
 import Joi from "joi";
 
-const objectSchema = Joi.object({
+const userValidator = Joi.object({
     name: Joi.string().max(20).required().messages({
     'string.max':'Занадто довге ім\'я, я не запам\'ятаю!',
     'required':'Потрібно хоча б щось написати!'
@@ -20,5 +20,5 @@ const objectSchema = Joi.object({
 })
 
 export {
-    objectSchema
+    userValidator
 }

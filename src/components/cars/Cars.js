@@ -20,7 +20,8 @@ const Cars = () => {
         <>
 
             <div className={'Cars'}>
-                <CarForm setResetCarsList={setResetCarsList} carsFormUpdate={carsFormUpdate}/>
+                <CarForm setResetCarsList={setResetCarsList} carsFormUpdate={carsFormUpdate}
+                         setCarFormUpdate={setCarFormUpdate}/>
             </div>
 
             <div className={'Cars'}>{

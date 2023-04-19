@@ -3,9 +3,11 @@ import {useForm} from "react-hook-form";
 import {commentService} from "../../services/comment.service";
 import {joiResolver} from "@hookform/resolvers/joi";
 import {commentValidator} from "../../validators/comment.validator";
+import './CommentForm.css';
+
 
 const CommentForm = ({setUpdateComments}) => {
-    const {register, handleSubmit, reset, formState: {errors, isValid}} = useForm({resolver:joiResolver(commentValidator)})
+    const {register, handleSubmit, reset, formState: {errors, isValid}} = useForm({mode:'all', resolver:joiResolver(commentValidator)})
 
     const save = async (comment) => {
         const {data} = await commentService.create(comment);
@@ -15,7 +17,7 @@ const CommentForm = ({setUpdateComments}) => {
     }
 
     return (
-        <form onSubmit={handleSubmit(save)}>
+        <form onSubmit={handleSubmit(save)} className={'CommentForm'}>
             <input placeholder={'name'} {...register('name' )}/>
             {errors.name && <span>{errors.name.message}</span>}
 

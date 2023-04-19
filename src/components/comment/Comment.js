@@ -1,16 +1,16 @@
 import React from 'react';
 
+import './Comment.css';
+
 const Comment = ({comment}) => {
     const {postId, name, email, body} = comment;
-    // console.log(comment);
-
 
     return (
-        <div>
-            <div>postId:{postId}</div>
-            <div>name:{name}</div>
-            <div>email:{email}</div>
-            <div>body:{body}</div>
+        <div className={'Comment'}>
+            <div>PostId: <span>{postId}</span></div>
+            <div>Name: <span>{name}</span></div>
+            <div>Email: <span>{email}</span></div>
+            <div>Body: <span>{body}</span></div>
         </div>
     );
 };

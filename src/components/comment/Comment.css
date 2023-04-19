@@ -1,0 +1,26 @@
+.Comment {
+    width: 80%;
+    min-width: 350px;
+    padding: 5px;
+
+    line-height: 1.3em;
+
+    border-radius: 5px;
+    background: #dedede;
+    box-shadow: 2px 2px 5px grey;
+}
+
+.Comment>div {
+    padding-left: 5px;
+
+    overflow: hidden;
+
+    border-radius: 5px;
+    background: #dedede;
+    box-shadow: inset 4px 4px 7px #d7d7d7,
+    inset -4px -4px 7px #e5e5e5;
+}
+
+.Comment>div>span {
+    font-weight: bold;
+}

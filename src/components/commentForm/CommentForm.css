@@ -1,0 +1,32 @@
+.CommentForm {
+    width: 70%;
+    min-width: 250px;
+    max-width: 550px;
+    margin: 20px 20%;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+
+    row-gap: 4px;
+
+    border-radius: 8px;
+    box-shadow: 1px 1px 10px grey;
+}
+
+.CommentForm>input{
+    padding: 5px;
+
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: .3em;
+
+    border-radius: 5px;
+}
+
+.CommentForm>button {
+    align-self: flex-end;
+
+    font-size: 18px;
+}

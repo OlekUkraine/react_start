@@ -1,14 +1,16 @@
 import React from 'react';
 
+import './User.css';
+
 const User = ({user}) => {
     const {id, name, username, email} = user;
 
     return (
-        <div>
-            <div>id:{id}</div>
-            <div>name:{name}</div>
-            <div>username:{username}</div>
-            <div>email:{email}</div>
+        <div className={'User'}>
+            <div>ID: <span>{id}</span></div>
+            <div>Name: <span>{name}</span></div>
+            <div>Username: <span>{username}</span></div>
+            <div>Email: <span>{email}</span></div>
         </div>
     );
 };

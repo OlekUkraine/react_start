@@ -1,0 +1,15 @@
+.Comments{
+    width: calc(100% - 20px);
+    margin: 10px auto;
+    padding: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 12px;
+
+    box-sizing: border-box;
+
+    background: #dedede;
+    box-shadow: 0 0 13px grey;
+}

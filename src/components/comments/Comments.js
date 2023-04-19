@@ -1,7 +1,9 @@
 import React, {useEffect, useState} from 'react';
+
 import {commentService} from "../../services/comment.service";
 import Comment from "../comment/Comment";
 import CommentForm from "../commentForm/CommentForm";
+import './Comments.css';
 
 const Comments = () => {
     const [comments, setComments] = useState([]);
@@ -11,9 +13,8 @@ const Comments = () => {
         commentService.getAll().then(value => value.data).then(value => setComments(value))
     }, [updateComments])
 
-
     return (
-        <div>
+        <div className={'Comments'}>
             <CommentForm setUpdateComments={setUpdateComments}/>
 
             {

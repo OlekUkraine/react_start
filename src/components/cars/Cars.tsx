@@ -8,11 +8,6 @@ const Cars = () => {
     const [cars, setCars] = useState<ICar[]>([]);
     const [allCars, setAllCars] = useState<boolean>(false);
 
-    // const updateCar = (id:number) => {
-    //     carService.updateById()
-    // }
-    //
-    // const deleteCar = (id:number) => {}
 
     useEffect(()=>{
         carService.getAll().then(value => value.data).then(value => setCars(value))

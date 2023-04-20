@@ -1,0 +1,28 @@
+.App__menu h2 {
+    text-align: center;
+}
+
+.App__menu > ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.App__menu > ul li {
+    list-style-type: none;
+}
+
+.App__menu > ul li:hover {
+    scale: 104%;
+}
+
+.App__view {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.App__view > h2 {
+    text-align: center;
+}

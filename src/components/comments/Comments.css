@@ -1,0 +1,19 @@
+
+.Comments__view {
+    display: flex;
+
+    box-sizing: border-box;
+}
+
+.Comments__view > div:nth-child(1) {
+    width: 20%;
+}
+
+.Comments__view > div:nth-child(2) {
+    width: 80%;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 10px;
+}

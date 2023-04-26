@@ -1,0 +1,24 @@
+.Cars {
+    width: 100%;
+    min-width: 570px;
+
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+
+    background: #ece6e6;
+}
+
+.Cars-list {
+    width: calc(100% - 20px);
+    padding: 20px;
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-self: center;
+    gap: 10px;
+
+    box-sizing: border-box;
+}

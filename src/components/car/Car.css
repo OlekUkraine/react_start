@@ -1,0 +1,16 @@
+.Car {
+    width: calc(20% - 10px);
+    min-width: 150px;
+    padding: 15px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+    overflow: hidden;
+
+    box-sizing: border-box;
+
+    border-radius: 4px;
+    box-shadow: 0 0 15px rgb(124, 124, 124);
+}

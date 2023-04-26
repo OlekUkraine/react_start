@@ -1,8 +1,13 @@
+import {FC} from "react";
+
+import './App.css';
 import {Cars} from "./components/cars/Cars";
-import {CarForm} from "./components/carForm/CarForm";
 
+interface IProps {
 
-const App = () => {
+}
+
+const App:FC<IProps> = () => {
     return (
         <div className="App">
             <Cars/>

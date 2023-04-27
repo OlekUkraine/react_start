@@ -1,0 +1,35 @@
+.Header {
+    display: flex;
+    justify-content: space-evenly;
+
+    font-size: 22px;
+}
+
+.Header a {
+    margin: 5px;
+
+    text-align: center;
+    text-decoration: none;
+
+    flex: 1;
+
+    background: #cdd7e0;
+    box-shadow: 0 0 10px rgb(124, 124, 124), 0 0 10px rgb(124, 124, 124);
+
+    transition: 2s;
+}
+
+.Header a:first-child {
+    border-bottom-left-radius: 25%;
+}
+
+.Header a:last-child {
+    border-bottom-right-radius: 25%;
+}
+
+.Header .active {
+    padding: 10px;
+
+    color: crimson;
+    flex: 2;
+}

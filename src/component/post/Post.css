@@ -1,0 +1,12 @@
+.Post {
+    max-width: 350px;
+    min-width: 250px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    border-radius: 4px;
+    box-shadow: 0 0 12px rgb(124, 124, 124), 0 0 12px rgb(124, 124, 124);
+}

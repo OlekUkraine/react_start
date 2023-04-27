@@ -1,0 +1,33 @@
+.Cats {
+    width: 50%;
+    min-height: 500px;
+    margin: 10px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    color: aliceblue;
+    background: #484343;
+    box-shadow: 0 0 8px #484343, 0 0 8px #484343;
+
+    border-radius: 6px;
+}
+
+.Cats>form {
+    margin: 10px;
+
+    align-self: center;
+}
+
+.Cats input {
+    margin: 10px;
+    font-size: 20px;
+
+    border-radius: 5px;
+}
+
+.Cats div {
+    margin-top: 10px;
+}

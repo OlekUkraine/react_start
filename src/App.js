@@ -1,10 +1,13 @@
+import IncDec from "./components/inc-dec/IncDec";
 
-function App() {
-  return (
-    <div className="App">
+const App = () => {
 
-    </div>
-  );
+    return (
+        <div className="App">
+            App
+            <IncDec/>
+        </div>
+    );
 }
 
 export default App;

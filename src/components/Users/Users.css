@@ -1,0 +1,20 @@
+.Users {
+    margin: 0 10px;
+    padding: 10px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+@media (max-width: 992px) {
+    .Users {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .Users {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

@@ -1,0 +1,21 @@
+.Header {
+    padding: 15px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    font-size: 26px;
+
+    background-color: #615a5a;
+    color: #f8f8c0;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.Header>a {
+    letter-spacing: .2em;
+    text-decoration: none;
+    color: #f8f8c0;
+    text-shadow: 1px 1px 1px #fcfca2, 1px 1px 1px #fdfd5d;
+}

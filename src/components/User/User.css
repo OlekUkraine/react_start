@@ -1,0 +1,12 @@
+.User {
+    min-width: 180px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: #eaf9fc;
+    box-shadow: inset 2px 2px 4px #b7b7f6, 2px 2px 4px #6d6dec;
+
+    border-radius: 3px;
+}

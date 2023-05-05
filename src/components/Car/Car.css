@@ -1,0 +1,40 @@
+.Car {
+    min-width: 180px;
+    padding: 20px;
+
+    line-height: 2em;
+
+    background-color: #eaf9fc;
+    box-shadow: inset 2px 2px 5px #a5a5f5, 2px 2px 5px #7272fa;
+
+    border-radius: 3px;
+}
+
+.Car:hover {
+    transform: rotate(.2deg);
+}
+
+.Car__buttons {
+    width: 100%;
+    margin-top: 10px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.Car__buttons>button {
+    box-shadow: inset 1px 1px 2px #cbcbf8, 2px 2px 3px #aeaefa;
+}
+
+.Car__buttons>button:hover {
+    scale: 102%;
+
+    box-shadow: inset 1px 1px 2px #cbcbf8, 3px 3px 3px #aeaefa;
+}
+
+
+.Car__buttons>button:active {
+    scale: 99%;
+
+    box-shadow: inset 1px 1px 2px #cbcbf8, 1px 1px 1px #aeaefa;
+}
